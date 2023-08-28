@@ -1,12 +1,12 @@
 import { useState } from "react";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [pokemonTeamSize, setPokemonTeamSize] = useState(0);
 
   return (
     <div>
-      <button onClick={() => setCount((count) => count + 1)}>
-        count is {count}
+      <button onClick={() => setPokemonTeamSize((count) => count + 1)}>
+        pokemonTeamSize is {pokemonTeamSize}
       </button>
     </div>
   );
